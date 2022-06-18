@@ -1,0 +1,25 @@
+.cartItemContainer{
+    background-color: rgb(231, 225, 225);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border: 1px solid gray;
+    margin: 10px 5px 10px 0;
+   
+}
+
+.cartItemContainer img {
+    height: 80%;
+    width: auto;
+    margin: 10px;
+}
+
+.deleteItem, .emptyCart {
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    border: 2px solid deepskyblue;
+    font-weight: bold;
+}
